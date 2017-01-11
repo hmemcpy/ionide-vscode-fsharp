@@ -52,9 +52,6 @@ module Mdbg =
                     busy <-false ))
 
 
-    let t () =
-        Promise.create
-
 type IonideDebugger ()  =
     inherit DebugSession()
 

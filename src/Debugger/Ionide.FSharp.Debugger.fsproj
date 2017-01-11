@@ -45,22 +45,6 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\paket-files\Ionide\ionide-vscode-helpers\Fable.Import.VSCode.fs">
-      <Paket>True</Paket>
-      <Link>paket-files/Fable.Import.VSCode.fs</Link>
-    </Compile>
-    <Compile Include="..\..\paket-files\Ionide\ionide-vscode-helpers\Helpers.fs">
-      <Paket>True</Paket>
-      <Link>paket-files/Helpers.fs</Link>
-    </Compile>
-    <Compile Include="..\..\paket-files\Ionide\ionide-vscode-helpers\Fable.Import.Axios.fs">
-      <Paket>True</Paket>
-      <Link>paket-files/Fable.Import.Axios.fs</Link>
-    </Compile>
-    <Compile Include="..\..\paket-files\Ionide\ionide-vscode-helpers\Fable.Import.ws.fs">
-      <Paket>True</Paket>
-      <Link>paket-files/Fable.Import.ws.fs</Link>
-    </Compile>
     <Compile Include="..\..\paket-files\Ionide\ionide-vscode-helpers\Fable.Import.VSCodeDebugger.fs">
       <Paket>True</Paket>
       <Link>paket-files/Fable.Import.VSCodeDebugger.fs</Link>
