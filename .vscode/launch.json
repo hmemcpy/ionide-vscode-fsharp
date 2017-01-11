@@ -3,7 +3,7 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-            "preLaunchTask": "Default",
+            // "preLaunchTask": "Default",
 			"name": "Launch Extension",
 			"type": "extensionHost",
 			"runtimeExecutable": "${execPath}",
@@ -15,7 +15,7 @@
 			"type": "node",
 			"request": "launch",
 			"name": "Server",
-			"cwd": "${workspaceRoot}",
+			"cwd": "${workspaceRoot}/release",
 			"program": "${workspaceRoot}/release/debugger.js",
 			"args": [ "--server=4711" ],
 			"sourceMaps": false
