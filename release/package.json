@@ -415,8 +415,8 @@
   ],
   "scripts": {
     "prebuild":"npm update",
-    "debugger":"fable ../src/Debugger/Ionide.FSharp.Debugger.fsproj -s -o ../release -m commonjs --verbose",
-    "extension": "fable ../src/Extension/Ionide.FSharp.Extension.fsproj -s -o ../release -m commonjs --verbose",
+    "debugger":"fable ../src/Debugger/Ionide.FSharp.Debugger.fsproj -s -o ../../release -m commonjs --verbose",
+    "extension": "fable ../src/Extension/Ionide.FSharp.Extension.fsproj -s -o ../../release -m commonjs --verbose",
     "build": "concurrently \"npm run debugger \" \"npm run extension\" "
   },
   "dependencies": {
