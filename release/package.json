@@ -415,7 +415,7 @@
   ],
   "scripts": {
     "prebuild":"npm update",
-    "build": "fable ../src/Ionide.FSharp.fsproj -s -o ../release -m commonjs --verbose"
+    "build": "fable ../src/Extension/Ionide.FSharp.Extension.fsproj -s -o ../release -m commonjs --verbose"
   },
   "dependencies": {
     "axios": "*",
