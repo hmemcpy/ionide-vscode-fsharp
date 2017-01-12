@@ -348,6 +348,9 @@
     "breakpoints": [
 			{
 				"language": "fsharp"
+			},
+      {
+				"language": "csharp"
 			}
 		],
 		"debuggers": [
@@ -355,7 +358,7 @@
 				"type": "ionide",
 				"label": "Ionide Debug",
 
-				"program": "./debugger",
+				"program": "./debugger.js",
 				"runtime": "node",
 
 				"configurationSnippets": [
@@ -392,6 +395,7 @@
 		]
   },
   "activationEvents": [
+    "onLanguage:csharp",
     "onLanguage:fsharp",
     "onCommand:fsi.Start",
     "onCommand:fsi.SendLine",
