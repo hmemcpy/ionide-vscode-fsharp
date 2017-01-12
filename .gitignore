@@ -66,5 +66,6 @@ temp
 *.js.map
 .orig
 release.cmd
+release-preview.cmd
 paket-files
 issueList.md
